@@ -1,0 +1,51 @@
+{
+  "name": "express-boilerplate",
+  "description": "A boilerplate project for RESTFul Express Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1pha-m/node-express-boilerplate.git"
+  },
+  "author": "Jayesh Panchal (jspanchal@ymail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a1pha-m/node-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/a1pha-m/node-express-boilerplate#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/chai": "^4.2.18",
+    "@types/compression": "^1.7.0",
+    "@types/cors": "^2.8.10",
+    "@types/dotenv": "^8.2.0",
+    "@types/eslint": "^7.2.12",
+    "@types/express": "^4.17.12",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.6.1",
+    "@types/nodemon": "^1.19.0",
+    "@types/uuid": "^8.3.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7",
+    "nyc": "^15.1.0",
+    "pm2": "^4.5.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "uuid": "^3.4.0"
+  }
+}
